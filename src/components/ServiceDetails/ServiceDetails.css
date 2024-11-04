@@ -1,0 +1,196 @@
+
+#ServiceDetails .container .content img{
+    width: 85%;
+    height: 400px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#ServiceDetails .container .text h2{
+    font-size: 38px;
+    margin: 15px 0;
+    font-weight: 900;
+    color: var(--text-color);
+}
+#ServiceDetails .container .text p{
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+    color: gray;
+    width: 89%;
+}
+
+#ServiceDetails .icons .icon-group{
+    display: flex;
+    text-align: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+#ServiceDetails .icons .icon-group i{
+    color: var(--white-color);
+    margin-right: 10px;
+    transition: 0.3s ease;
+    background-color: var(--main-color);
+    padding: 7px;
+    border-radius: 8px;
+}
+#ServiceDetails .icons .icon-group:hover i{
+    background-color: var(--orang-color);
+}
+#ServiceDetails .icons .icon-group h3{
+    color: var(--text-color);
+    font-size: 22px;
+    margin: 0;
+}
+#ServiceDetails .Popular{
+    margin: 20px 0 50px 0;
+}
+#ServiceDetails .Popular h2{
+    font-size: 30px;
+    color: var(--text-color);
+    font-weight: 900;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--orang-color) !important;
+    border-radius: 10px !important;
+    padding: 32px 20px;
+    color: white !important;
+    font-size: 21px;
+    margin: 10px 0 !important;
+    overflow: hidden !important;
+}
+
+.accordion-item >.accordion-header .accordion-button{
+    border-radius: 10px !important;
+    background: var(--main-color) ;
+    padding: 32px 20px;
+    color: white;
+    font-size: 21px;
+    margin:10px  0 !important;
+    overflow: hidden !important;
+}
+.accordion-flush>.accordion-item>.accordion-collapse {
+    border-radius: 11px;
+    padding: 15px;
+    background: aliceblue;
+}
+#ServiceDetails .content2{
+margin-top: 30px;
+    
+}
+#ServiceDetails .content2 .all-button{
+    width: 100%;
+    background: var(--withe-color) ;    
+}
+
+#ServiceDetails .content2 .all-button ul {
+    background-color: #fff;
+    border: 1px solid rgba(86, 90, 207, .2);
+    border-bottom: 3px solid #565acf;
+    border-radius: 6px 6px 4px 4px !important;
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, .06);
+    padding: 30px;
+    position: relative;
+}
+
+#ServiceDetails .content2 .all-button ul li:first-child a{
+    background-color: var(--orang-color);
+}
+#ServiceDetails .content2 .all-button ul li:first-child i{
+    color: var(--orang-color);
+}
+#ServiceDetails .content2 .all-button ul a{
+    position: relative;
+    background-color: #565acf;
+    border-radius: 8px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 15px 50px 15px 20px;
+    position: relative;
+    text-transform: capitalize;
+    transition: all .5s;
+    z-index: 1;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#ServiceDetails .content2 .all-button ul a:hover{
+    background-color: var(--orang-color);
+}
+#ServiceDetails .content2 .all-button ul a:hover i{
+    color: var(--orang-color);
+}
+#ServiceDetails .content2 .all-button ul a i{
+    background: #fff;
+    border-radius: 35px;
+    border-radius: inherit;
+    color: #565acf;
+    display: inline-block;
+    font-size: 18px;
+    height: 38px;
+    line-height: 38px;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    top: 8px;
+    width: 38px;
+}
+
+#ServiceDetails .Advanced .skillBar{
+    position: relative;
+    width: 80%;
+    height: 6px;
+    background-color: #a0a1c9;
+    border-radius: 15px;
+}
+
+#ServiceDetails .Advanced .skillBar .tape{
+    background-color: #565acf;
+    width: 96%;
+    height: 6px;
+    position: relative;
+    border-radius: 15px;
+
+}
+#ServiceDetails .Advanced:nth-child(2) .skillBar .tape{
+    background-color: #565acf;
+    width: 85%;
+    height: 6px;
+    position: relative;
+}
+#ServiceDetails .Advanced:nth-child(3) .skillBar .tape{
+    background-color: #565acf;
+    width: 72%;
+    height: 6px;
+    position: relative;
+}
+#ServiceDetails .Advanced .skillBar .tape::after{
+    content: "";
+    position: absolute;
+    top: -7px;
+    right:0;
+    width: 20px;
+    height: 20px;
+    background-color: var(--white-color) !important;
+    border-radius: 50%;
+    background-color: #a0a1c9;
+    transition:0.5s ease;
+    border: 4px solid var(--main-color);
+}
+#ServiceDetails .Advanced .skillBar span{
+    position: absolute;
+    right: 0;
+    top: -30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--main-color);
+}
+
+#ServiceDetails .Advanced h3{
+    font-size: 20px;
+    color: var(--text-color) !important;
+    font-weight: 800;
+    margin: 20px 0;
+}

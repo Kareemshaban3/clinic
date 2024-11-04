@@ -1,0 +1,24 @@
+#Faq .accordion-header .accordion-button, .accordion-flush>.accordion-item>.accordion-header .accordion-button.collapsed {
+    border-radius: 10px !important;
+    background: var(--main-color) ;
+    padding: 32px 20px;
+    color: white;
+    font-size: 21px;
+    margin:10px  0 !important;
+    overflow: hidden !important;
+}
+
+.accordion-body {
+    padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+    background: #e6e7f8;
+    color: black;
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--orang-color) !important;
+    border-radius: 10px !important;
+    padding: 32px 20px;
+    color: white !important;
+    font-size: 21px;
+    margin: 10px 0 !important;
+    overflow: hidden !important;
+}

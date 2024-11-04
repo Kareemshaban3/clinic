@@ -1,0 +1,16 @@
+#NotFound img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+}
+#NotFound a{
+    background-color: var(--main-color);
+}
+#NotFound a:hover{
+    background-color: var(--text-color);
+}
+#NotFound p{
+    color: var(--text-color);
+    font-size: 22px;
+    font-weight: 900;    
+}

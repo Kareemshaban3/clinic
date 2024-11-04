@@ -1,0 +1,121 @@
+#doctor{
+    padding: 100px 0;
+}
+
+#doctor .content{
+    border: 3px solid #e6e7f8;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 20px;
+    transition: 0.4s linear;
+    margin-top: 20px;
+}
+
+#doctor .content .img-big{
+    position: relative;
+}
+#doctor .content .doctor{
+    width: 60%;
+    text-align: center;
+    -webkit-mask-image:url(download\ \(4\).png);
+    mask-image: url(download\ \(4\).png);
+    -webkit-mask-position: center center;
+    mask-position: center center;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    mask-size: 100%;
+    padding: 60px 0;
+}
+#doctor .content:hover{
+    border: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.136);
+}
+
+
+#doctor .content .img-small{
+    opacity: .2;
+    transition: 0.7s linear;
+}
+#doctor .content:hover .img-small{
+    opacity: 1;
+}
+#doctor .content .kafer{
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    width: 350px;
+}
+#doctor .content .kafer2{
+    position: absolute;
+    top: 6%;
+    left: 13%;
+    width: 280px;
+}
+#doctor .content h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    color: var(--text-color);
+    font-weight: 700;
+}
+#doctor .content h3{
+    font-size: 21px;
+    margin-bottom: 15px;
+    color: var(--orang-color);
+    font-weight: 500;
+}
+#doctor .content .button{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+    text-align: center;
+}
+#doctor .content .button button{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    outline: none;
+    height: 45px;
+    width: 45px;
+    margin-right: 15px;
+    font-size:20px;
+    line-height: 45px;
+    transition: 0.3s;
+}
+#doctor .content .button button:hover{
+    background-color: var(--orang-color);
+    color: var(--white-color);
+}
+
+@media (max-width: 840px){
+    #doctor .content .kafer2 {
+        left: 10%;
+        width:220px ;
+        top: 10%;
+    }
+    #doctor .content .kafer{
+        left: -2%   !important ;
+        width: 300px;
+    }
+    #doctor .content{
+        height: 70vh;
+    }
+}
+@media (max-width: 400px) {
+    #PageBanner button{
+        width: 60%;
+    }
+    #PageBanner .shape1 {
+        display: none;
+    }
+
+    #doctor .content .kafer2 {
+        left: 14%;
+        width:220px ;
+    }
+    #doctor .content .kafer{
+        left: 0%   !important ;
+    }
+}

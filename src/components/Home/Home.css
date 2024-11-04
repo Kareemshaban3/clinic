@@ -1,0 +1,87 @@
+header{
+    margin-top: 0px !important; 
+    background-color: #F7F7FF !important;
+    position: relative !important ;
+    padding: 100px 0!important;
+}
+
+header .row{
+    margin: 50px 0;
+}
+header .row h5{
+    color: var(--btn-color);
+    font-size: 20px;
+    margin: 10px 0px;
+}
+header .row h2{
+    color: var(--text-color);
+    font-size: 50px;
+    margin: 20px 0px;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+header .row button{
+    background-color: var(--orang-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+    transition: 0.3s;
+    box-shadow: 0px 0px 10px var(--orang-color);
+    outline: none;
+    font-weight: 600;
+    line-height: 0px;
+    width: 40%;
+    height: 60px;
+}
+
+header .row button:hover{
+    background-color:  rgb(238, 145, 91) !important;
+    cursor: pointer !important;
+
+}
+
+header .row img{
+  width:450px;
+  height:auto;
+  animation: mover 2s linear infinite alternate; 
+}
+
+header .photo{
+    width: 60px !important;  
+    animation: mover 1.8s linear infinite alternate !important; 
+}
+header .peals{
+    width: 60px !important;  
+     position: relative;
+     left: 60px;
+     animation: mover 1.8s linear infinite alternate !important; 
+}
+
+
+@keyframes mover {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-10px); }
+}
+@media (max-width: 430px){
+    header .row img{
+        width:350px;
+    }
+    header .row h2{
+        font-size: 40px;
+    }
+}
+@media (min-width: 720px) and (max-width:850px) {
+    header .row img{
+        width:350px;
+    }
+    header .row h2{
+        font-size: 30px;
+    }
+    header .contact{
+        margin: 90px 0;
+    }
+}

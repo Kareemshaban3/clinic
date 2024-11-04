@@ -1,0 +1,195 @@
+#working{
+    background-image: url(bacWorking\ Process.png);
+    position: relative;
+    padding: 90px 0;
+}
+
+#working .col-12 h2{
+    width: 20%;
+}
+
+#working .col-12 h3{
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 60px;
+    color: var(--text-color);
+}
+
+#working .content{
+    background-color: var(--white-color);
+    padding: 50px 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    z-index: 10;
+    transition: .3s linear;    
+    height: 400px;
+    width: 80%;
+    margin: auto;
+}
+#working .content::before{
+    transition: .3s linear;    
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--orang-color);
+    border-radius: 8px;
+    z-index: -1;
+
+}
+#working .content:hover::before{
+    top:0% ;
+}
+
+
+#working .content h4{
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 10px;
+    color: transparent;
+    text-shadow: 0 10px 0 #ffe3d3;
+    transition: all .5s;
+    -webkit-text-stroke: 2px #f17732;
+    font-family: system-ui;
+}
+#working .content:hover h4{
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    text-shadow: 0 10px 0 #ffffff3b;
+}
+
+#working .content h5{
+    font-weight: 900;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: var(--orang-color);
+}
+#working .content:hover h5{
+    color: var(--white-color);
+}
+#working .content:hover p{
+    color: var(--white-color);
+}
+#working button{
+   height: 55px;
+    width: 190px;
+    font-size: 19px;
+    background-color: #E1E2F6;
+    color: var(--text-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-align: center;
+    font-weight: 900;
+}
+#working .content:hover button{
+    background-color: var(--white-color);
+    color: var(--orang-color);
+}
+#working button i{
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    background-color: var(--white-color);
+    text-align: center;
+    border-radius:8px;
+    margin: 0px -10px 0px 19px;
+}
+#working .content:hover i{
+    background-color: var(--orang-color);
+    color: var(--white-color);
+}
+
+#working .deferent{
+    color: var(--white-color);
+    background-color: var(--orang-color);
+}
+#working .deferent h4{
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    text-shadow: 0 10px 0 #ffffff3b;
+}
+
+#working .deferent h5{
+    color: var(--white-color);
+}
+#working .deferent p{
+    color: var(--white-color);
+}
+#working .deferent i{
+    background-color: var(--orang-color);
+    color: var(--white-color);
+}
+#working .deferent button{
+    background-color: var(--white-color);
+    color: var(--orang-color);
+}
+
+#working .shape .shape1{
+    position: absolute;
+    bottom: 10%;
+    left: 4%;
+    animation: rotate 3s linear infinite;
+}
+#working .shape .shape3{
+    position: absolute;
+    bottom: 0%;
+    right: 5%;
+    animation: moveRighto 3s ease-in-out both infinite alternate ;
+
+}
+#working .shape .shape2{
+    position: absolute;
+    bottom: 40%;
+    right: 4%;
+    animation: up 2s ease-in-out both infinite alternate ;
+}
+#working .shape .shape4{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    animation: moveRighto 3s ease-in-out both infinite alternate ;
+}
+@media (min-width: 1000px) {
+    #working .between{
+        margin-top: 60px;
+    }
+}
+@media (max-width: 1000px) {
+ 
+    section   .col-12 h2{
+        width: 30%;
+    } 
+    #working .col-sm-12:nth-child(4){
+        margin-top: 10px;
+    }
+}
+@media (max-width: 770px) {
+    section   .col-12 h2{
+        width: 40% !important;
+        font-size: 20px;
+    } 
+    #working .col-sm-12:nth-child(3){
+        margin-top: 10px;
+    }
+}
+@media (max-width: 550px) {
+    section   .col-12 h2{
+        width: 59%;
+    } 
+    .shapes4 , .shapes1 ,.shape3{
+        display: none;
+    }
+    section .col-12 h1 {
+        font-size: 27px;
+    }
+    #section .col-12 h3{
+        font-size: 37px;
+    }
+    #working .col-12 h3{
+        font-size: 50px;
+    }
+}

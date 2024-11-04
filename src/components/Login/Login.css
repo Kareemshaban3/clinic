@@ -1,0 +1,83 @@
+
+#login{
+    background-color: #f5f5fc;
+    height: 100vh;
+    width: 100%;
+}
+#login .logo{
+    text-align: center;
+    margin: 20px 0;
+}
+#login .content{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.179);
+    border-radius: 15px;
+    background-color: var(--white-color);
+}
+#login .form-control{
+    border: none;
+    outline: none;
+}
+#login input{
+    margin-bottom: 10px;
+    padding: 15px 10px;
+    width: 100%;
+    border: 2px solid #dfe0f6;
+    border-radius: 15px;
+    outline: none;
+    outline: var(--main-color);
+}
+
+#login input:hover{
+    border-color: var(--main-color);
+}
+#login input:focus{
+    border-color: var(--main-color);
+}
+#login .login{
+    background-color: var(--main-color);
+    color: var(--white-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+    height: 60px;
+    width: 90%;
+    margin: 10px 0 15px 0;
+}
+#login .forgot{
+    font-size: 20px;
+    color: var(--main-color);  
+    font-weight: 700;
+    cursor: pointer;
+    margin: 10px;
+}
+
+#login .Register h4{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+#login .register{
+    border-radius: 15px;
+    background-color: var(--orang-color);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+    outline: none;
+    height: 60px;
+    width: 90%;
+}
+
+#login .register:hover{
+    opacity: .9;
+}
+@media (min-width: 1000px) {
+    #login .content{
+        width: 40%;
+    }   
+}
