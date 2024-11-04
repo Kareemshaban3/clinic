@@ -3,6 +3,8 @@ import React from "react";
 import PageChang from "../PageChang/PageChang";
 import "./ServiceDetails.css";
 import doctor1 from "../../img/pic1.ac173f78b519b3024706.jpg";
+import { Link } from "react-router-dom";
+
 export default function ServiceDetails() {
   return (
     <>
@@ -255,34 +257,34 @@ export default function ServiceDetails() {
             <div className='all-button '>
                 <ul>
                    <li>
-                        <a>
+                        <Link>
                             <span>Engine Diagnostics</span>
                             <i className="fas fa-angle-right"></i>
-                        </a> 
+                        </Link> 
                    </li> 
                    <li>
-                        <a>
+                        <Link>
                             <span>Belts and Hoses</span>
                             <i className="fas fa-angle-right"></i>
-                        </a> 
+                        </Link> 
                    </li> 
                    <li>
-                        <a>
+                        <Link>
                             <span>Air Conditioning</span>
                             <i className="fas fa-angle-right"></i>
-                        </a> 
+                        </Link> 
                    </li> 
                    <li>
-                        <a>
+                        <Link>
                             <span>Brake Repair</span>
                             <i className="fas fa-angle-right"></i>
-                        </a> 
+                        </Link> 
                    </li> 
                    <li>
-                        <a>
+                        <Link>
                             <span>Tire and Wheel Services</span>
                             <i className="fas fa-angle-right"></i>
-                        </a> 
+                        </Link> 
                    </li> 
                 </ul>
             </div>

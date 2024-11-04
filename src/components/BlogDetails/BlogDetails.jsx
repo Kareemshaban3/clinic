@@ -10,6 +10,7 @@ import operation1 from "../../img/pic3.299a41762fa0858a67d3.jpg"
 import operation2 from "../../img/pic1.ac173f78b519b3024706.jpg"
 import { Link } from 'react-router-dom'
 import PageChang from "../PageChang/PageChang";
+
 export default function BlogDetails() {
   return (
     <>
@@ -74,10 +75,10 @@ export default function BlogDetails() {
                                 </div>
                                 <div className="tags">
                                     <h6>Share :</h6>
-                                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                     <Link href="#"><i class="fa-brands fa-facebook"></i></Link>
+                                     <Link href="#"><i class="fa-brands fa-twitter"></i></Link>
+                                     <Link href="#"><i class="fa-brands fa-linkedin"></i></Link>
+                                     <Link href="#"><i class="fa-brands fa-instagram"></i></Link>
                                 </div>
                              </div>
 
@@ -93,10 +94,10 @@ export default function BlogDetails() {
                                         </div>
                                     </div>
                                     <div className="share">
-                                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                                     <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-                                     <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                                    <Link href="#"><i class="fa-brands fa-facebook"></i></Link>
+                                     <Link href="#"><i class="fa-brands fa-twitter"></i></Link>
+                                     <Link href="#"><i class="fa-brands fa-linkedin"></i></Link>
+                                     <Link href="#"><i class="fa-brands fa-instagram"></i></Link>
                                     </div>
                                 </div>
 

@@ -1,6 +1,8 @@
 import React from 'react'
 import "./ContactUs.css"
 import PageChang from "../PageChang/PageChang"
+import { Link } from 'react-router-dom'
+
 export default function ContactUs() {
   return (
     <>
@@ -57,9 +59,9 @@ export default function ContactUs() {
                               <h3>Follow Us</h3>
                               </div>
                               <div className="button">
-                                <a href="#" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
-                                <a href="#" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
-                                <a href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                                <Link href="#" target="_blank"><i class="fa-brands fa-facebook-square"></i></Link>
+                                <Link href="#" target="_blank"><i class="fa-brands fa-twitter-square"></i></Link>
+                                <Link href="#" target="_blank"><i class="fa-brands fa-instagram-square"></i></Link>
                               </div>
                             </div>
                       </div>
