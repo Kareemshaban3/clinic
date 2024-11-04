@@ -1,7 +1,8 @@
 import React from 'react'
-import { Link, useLocation } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import "./Navbar.css"
 import logo from "../../img/download logo.png"
+
 export default function Navbar() {
 
   const location = useLocation()
@@ -10,6 +11,10 @@ export default function Navbar() {
   const isForgot = location.pathname === "/Forgot";
   const isRegister = location.pathname === "/Register";
 
+  let navigator = useNavigate()
+  let goContact = ()=>{
+    navigator("/Login")
+  }
   
   return (
     <>
@@ -69,7 +74,7 @@ export default function Navbar() {
                 <Link className="nav-link" href="#"><i className='fa fa-phone'></i> (+01) 999 888 777</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" href="#"><button>Contact Us <i class="fa-solid fa-chevron-right"></i> </button></Link>
+                <Link className="nav-link" href="#"><button onClick={()=>goContact()} >Contact Us <i class="fa-solid fa-chevron-right"></i> </button></Link>
               </li>
       
             </ul>
